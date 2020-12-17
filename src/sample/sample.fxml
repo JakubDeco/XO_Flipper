@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="btn1" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btn1clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn2" layoutX="114.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btn2clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn3" layoutX="214.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btn3clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn4" layoutX="314.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btn4clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn5" layoutX="14.0" layoutY="114.0" mnemonicParsing="false" onMouseClicked="#btn5clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn6" layoutX="114.0" layoutY="114.0" mnemonicParsing="false" onMouseClicked="#btn6clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn7" layoutX="214.0" layoutY="114.0" mnemonicParsing="false" onMouseClicked="#btn7clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn8" layoutX="314.0" layoutY="114.0" mnemonicParsing="false" onMouseClicked="#btn8clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn9" layoutX="14.0" layoutY="214.0" mnemonicParsing="false" onMouseClicked="#btn9clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn10" layoutX="114.0" layoutY="214.0" mnemonicParsing="false" onMouseClicked="#btn10clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn11" layoutX="214.0" layoutY="214.0" mnemonicParsing="false" onMouseClicked="#btn11clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn12" layoutX="314.0" layoutY="214.0" mnemonicParsing="false" onMouseClicked="#btn12clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn13" layoutX="14.0" layoutY="314.0" mnemonicParsing="false" onMouseClicked="#btn13clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn14" layoutX="114.0" layoutY="314.0" mnemonicParsing="false" onMouseClicked="#btn14clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn15" layoutX="214.0" layoutY="314.0" mnemonicParsing="false" onMouseClicked="#btn15clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btn16" layoutX="314.0" layoutY="314.0" mnemonicParsing="false" onMouseClicked="#btn16clicked" prefHeight="100.0" prefWidth="100.0" text="X" />
+      <Button fx:id="btnMix" layoutX="196.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#mix" text="MIX" />
+      <Label fx:id="lb_win" layoutX="57.0" layoutY="175.0" prefHeight="78.0" prefWidth="315.0" text="You have won! Congratulations!" textAlignment="CENTER" textFill="#eb2a2a" visible="false">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
